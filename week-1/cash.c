@@ -4,7 +4,10 @@
 int main(void){
 
     int c = get_int("Change owed: ");
-    //The program promts the user for the number of change they owe
+    while(c < 0) {
+        c = get_int("Change owed: ");
+    }
+    //The program promts the user for the number of change they owe as long as its a positive number
 
     int a = 0;
     //I made an integer for the number of answers it gets to tell us the amount of coins that will be given
