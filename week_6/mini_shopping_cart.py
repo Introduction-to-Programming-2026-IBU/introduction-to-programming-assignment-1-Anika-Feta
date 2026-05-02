@@ -17,7 +17,6 @@ print("""--- Shop Menu ---
 5. Done""")
 
 
-total = 0.00
 while True:
     choice = int(input("Enter the item number to buy (or 5 to checkout): "))
 
